@@ -7,6 +7,7 @@ sentence;    //prompt for user to enter a sentence that will be saved as a varia
 
 var firstChar = sentence.charAt(0); //stores the first caracter of the users sentence.
 
-var lastChar = sentence.charAt(sentence.length-1); // stores the first caracter of the users sentence.
+var lastChar = sentence.charAt(sentence.length-1); // stores the first caracter of the users sentence. (-1 means first, starting from the end)
 
-saySomething(lastChar);
+var firstandlast = firstChar + lastChar; // declairs a variable to store the first and last Chars.
+saySomething(firstandlast);
