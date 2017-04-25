@@ -9,5 +9,8 @@ var firstChar = sentence.charAt(0); //stores the first caracter of the users sen
 
 var lastChar = sentence.charAt(sentence.length-1); // stores the first caracter of the users sentence. (-1 means first, starting from the end)
 
-var firstandlast = firstChar + lastChar; // declairs a variable to store the first and last Chars.
-saySomething(firstandlast);
+var firstAndLast = firstChar + lastChar; // declairs a variable to store the first and last Chars.
+
+var upperCase = firstAndLast.toUpperCase(); //changes firstAndLast to caps.
+
+saySomething(upperCase);
